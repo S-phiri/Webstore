@@ -1,0 +1,37 @@
+.landing-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .category-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category-card {
+    background: #f5f5f5;
+    width: 180px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .category-card:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateY(-4px);
+  }
+  
